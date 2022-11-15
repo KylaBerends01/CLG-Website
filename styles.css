@@ -1,0 +1,93 @@
+/* Basic style settings */
+body{
+    background-image: url('https://images.unsplash.com/photo-1563297592-d5a4661d8671?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:300px;
+    color:white;
+    margin:0;
+}
+
+/* Main heading on home page size and style */
+h1{
+    font-family: 'Montserrat', 
+    sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    line-height:100%;
+    margin-bottom:0;
+}
+ 
+/* subheading on front page */
+h2{
+    font-size: 25pt;
+}
+
+/* content headings */
+h3{
+    font-size:50px;
+    margin:0px;
+    color:#086754;
+}
+
+p{
+    color:#0d7963;
+}
+
+/* adding padding to divs since body has none */
+div{
+    padding:40px;
+    margin:auto 0px;
+}
+
+/* about us section (light green) */
+.about-us{
+    background-color: #ccece6;
+    display:block;
+}
+
+/* rounded portrait images */
+.about-us-portrait{
+    width:30%;
+    border-radius:100%;
+}
+
+/* removing top margin to nav bar */
+ul{
+    margin:0;
+}
+
+/* Nav-bar*/
+ul.nav {
+    position:absolute top;
+    list-style:none;
+    height:40px; line-height:40px;
+    display:block;
+    background:#0d7963;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+
+/* Nav-bar list separation lines*/
+ul.nav li {
+    border-right:1px solid #189b80;
+    float:left;
+}
+
+/* Nav-bar buttons*/
+ul.nav a {
+    display:block;
+    padding:0 28px;
+    color:#ccece6;
+    text-decoration:none;
+}
+
+/* Nav-bar hover*/
+ul.nav a:hover,
+
+/* Nav-bar background hover color*/
+ul.nav li.current a {
+    background:#086754;
+}
